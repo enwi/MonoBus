@@ -30,4 +30,4 @@ The encoding happens after the message was built and the checksum generated.
         - After that there are 6 or 8 bytes of pixel data depending on the row size of the matrix. Pixels are encoded 2 bits each where `0b11` means flip the dot to yellow and `0b10` means flip the dot to black. The MSB bits of the second byte are always left blank, meaning for 2 bytes of data only 7 pixels are included. You can take a llok at the `setPixelColumn` command to see how it works.
 
 # Special Thanks
-Special thanks to @atc1441 for reversing most of the protocol :rocket:
+Special thanks to [@atc1441](https://github.com/atc1441) for reversing most of the protocol :rocket:
